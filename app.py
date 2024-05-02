@@ -27,11 +27,6 @@ def read_data(url):
 urls = [
     #SNGH/CHKD
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vTz4epfxR7gbMC6koJ70b7ntJrKNR8gabRnc8-Fxh2icdp_QGVax2-QafWt57FSUDd7yincCSK3xBYx/pub?output=xlsx"
-    #Waitzer
-    
-    #Leigh
-
-
 ]
 
 # List to store dataframes
