@@ -2,4 +2,5 @@ gunicorn==22.0.0
 dash==2.16.1
 pandas==2.2.2
 plotly==5.9.0
+numpy==1.26.0
 openpyxl
