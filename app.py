@@ -26,9 +26,7 @@ def read_data(url):
 # URLs of input files, separate them by commas
 urls = [
     #SNGH/CHKD
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vRJLmScGNhDn3mbvK_p70EWYiT3GjBR-zu-Aj7CvtjlTXFlAWN-2moM9NnDauqx3HpoAVm9E3I14hTl/pub?output=xlsx",
-    #Waitzer
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vRrsaO4yrCrs_5TD7naJh1Q40D9tu3iP5VbSC3wyq02tl718dSJjI2JV_jdd7-Tldxfsz0sBmqqtMby/pub?output=xlsx"
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vRJLmScGNhDn3mbvK_p70EWYiT3GjBR-zu-Aj7CvtjlTXFlAWN-2moM9NnDauqx3HpoAVm9E3I14hTl/pub?output=xlsx"
 ]
 
 # List to store dataframes
