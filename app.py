@@ -81,7 +81,7 @@ df = pd.read_csv("combined_datawtimes.csv")
 df['DateandTime'] = pd.to_datetime(df['DateandTime'])
 
 # Get the min and max dates from the dataset
-min_date = df['DateandTime'].min().strftime('%Y-%m-%d')
+min_date = (df['DateandTime'].max() + timedelta(days=-30)).strftime('%Y-%m-%d')
 max_date = (df['DateandTime'].max() + timedelta(days=1)).strftime('%Y-%m-%d')
 
 
