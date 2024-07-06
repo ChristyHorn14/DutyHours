@@ -156,7 +156,7 @@ def update_graphs(start_date, end_date):
     duty_hours_by_location = filtered_df.groupby('Location')['TimeElapsed'].sum()
     
     # Group by week and calculate total duty hours
-    duty_hours_by_week = filtered_df.groupby(filtered_df['DateandTime'].dt.strftime('%U'))['TimeElapsed'].sum()
+    duty_hours_by_week = filtered_df.groupby(filtered_df['DateandTime'].dt.strftime('%W'))['TimeElapsed'].sum()
     
     # Create bar chart for duty hours per specified time period
     fig1 = px.bar(x=['Total Duty Hours'], y=[total_duty_hours], text=[round(total_duty_hours)],
@@ -185,7 +185,7 @@ def update_graphs(start_date, end_date):
     # Create bar chart for duty hours per specified time period by week
     fig4 = px.bar(x=duty_hours_by_week.index, y=duty_hours_by_week.values, text=duty_hours_by_week.values.round(),
                  labels={'x': 'Week', 'y': 'Duty Hours'},
-                 title='Duty Hours per Specified Time Period by Week (Sunday to Saturday)',
+                 title='Duty Hours per Specified Time Period by Week (Monday to Sunday)',
                  color_discrete_sequence=[colors['accent']])
     fig4.update_traces(texttemplate='%{text}', textposition='inside')  # Change text position to inside
     fig4.update_layout(plot_bgcolor=colors['background'], paper_bgcolor=colors['background'], font_color=colors['text'])
