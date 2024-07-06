@@ -185,7 +185,7 @@ def update_graphs(start_date, end_date):
     # Create bar chart for duty hours per specified time period by week
     fig4 = px.bar(x=duty_hours_by_week.index, y=duty_hours_by_week.values, text=duty_hours_by_week.values.round(),
                  labels={'x': 'Week', 'y': 'Duty Hours'},
-                 title='Duty Hours per Specified Time Period by Week',
+                 title='Duty Hours per Specified Time Period by Week (Sunday to Saturday)',
                  color_discrete_sequence=[colors['accent']])
     fig4.update_traces(texttemplate='%{text}', textposition='inside')  # Change text position to inside
     fig4.update_layout(plot_bgcolor=colors['background'], paper_bgcolor=colors['background'], font_color=colors['text'])
