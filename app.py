@@ -28,7 +28,11 @@ urls = [
     #SNGH/CHKD
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vRJLmScGNhDn3mbvK_p70EWYiT3GjBR-zu-Aj7CvtjlTXFlAWN-2moM9NnDauqx3HpoAVm9E3I14hTl/pub?output=xlsx",
     #CHKD Concert DRive
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vS83REQuNZP0bIeYtG2IsRO3258pTYbOSB-54xxGzuzG05JtuIogdYpsXdpwtu8dP-K-GKqDj6f0ww-/pub?output=xlsx"
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vS83REQuNZP0bIeYtG2IsRO3258pTYbOSB-54xxGzuzG05JtuIogdYpsXdpwtu8dP-K-GKqDj6f0ww-/pub?output=xlsx",
+    #Princess Anne Clinic
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vSroGmVZhp_KSqCsoybYavTc756Bw-pmW3cYl-QVQQgc7HUXhG_Heng61PdFDhqjbdJie709v4nLWHr/pub?output=xlsx",
+    #Med Spa
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vStqLb5FKbYEHQhJt3gPf8caZRbdIsCudJ4rgP21zG-25i5p0f8IHxwY0NYEpsJkjx9Cz61WmH_y6q0/pub?output=xlsx"
 ]
 
 # List to store dataframes
