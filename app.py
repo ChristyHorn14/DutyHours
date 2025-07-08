@@ -34,7 +34,9 @@ urls = [
     #Med Spa
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vStqLb5FKbYEHQhJt3gPf8caZRbdIsCudJ4rgP21zG-25i5p0f8IHxwY0NYEpsJkjx9Cz61WmH_y6q0/pub?output=xlsx",
     #PSCT
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1BtBOQgupdLdSy3dZh7rZpTvG7TkoswSg9tK298wt497189ueiuuWqbVYtRY5A6xlhkfkvp5NK3EL/pub?output=xlsx"
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1BtBOQgupdLdSy3dZh7rZpTvG7TkoswSg9tK298wt497189ueiuuWqbVYtRY5A6xlhkfkvp5NK3EL/pub?output=xlsx",
+    #CHKD Chesapeak
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vSQmW9rM4OXUVqgIo4p9gB0z1ySSQPTOBFuBBRr8wjPLXjK0uTtMOWmzFFMgUsVCqiqlNBovOptIHnr/pub?output=xlsx"
 ]
 
 # List to store dataframes
